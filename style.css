@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: Myriad Pro, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    width: 1400px;
+}
+
+/*En tête*/
+
+header {
+    background-color: rgb(15, 19, 20);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+div.logo {
+    display: flex;
+    flex-direction: row;
+    padding-top: 0;
+    margin-left: 150px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ul.info {
+    display: flexbox;
+    font-weight: bold;
+    list-style: none;
+    text-align: right;
+    margin-right: 120px;
+    padding-top: 50px;
+    font-size: 18px;
+}
+
+/*navigation*/
+
+nav {
+    display: flex;
+    height: 85px;
+    text-align: center;
+    position: sticky;
+    background-color: rgb(15, 19, 20);
+}
+
+nav li {
+    display: inline-block;
+    padding: 50px 30px 0 0;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+}
+
+nav span li a {
+    margin-left: 150px;
+    text-decoration: none;
+    background-color: white;
+    color: rgb(95, 111, 148);
+    padding: 25px 30px 20px 30px;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: rgb(15, 19, 20);
+    color: white;
+    padding: 15px;
+}
+
+#séparation {
+    display: flexbox;
+    border-top: 3px solid transparent;
+}
+
+/*Introduction*/
+
+#section {
+    background-color: rgb(255, 51, 5);
+}
+
+.bloc {
+    background-color: white;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.title1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.intro {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+#main {
+    background-color: rgb(255, 51, 5);
+}
+
+/*Promotions*/
+
+.promo {
+    text-align: left;
+    margin-left: 150px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/*Articles*/
+
+#flex-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-bottom: 70px;
+}
+
+.prix span {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.2;
+    position: absolute;
+    display: flex;
+    padding-left: 75px;
+    z-index: 223;
+}
+
+.prix {
+    display: flexbox;
+    color: rgb(95, 111, 148);
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.title {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.text {
+    color: rgb(95, 111, 148);
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.item-site img {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.article1 {
+    background-color: white;
+    width: 245px;
+    margin: 10px;
+    height: 420px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.article2 {
+    background-color: white;
+    width: 245px;
+    margin: 10px;
+    height: 420px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.article3 {
+    background-color: white;
+    width: 245px;
+    margin: 10px;
+    height: 420px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.article3 .bouton {
+    padding-top: 22px;
+}
+
+.article4 {
+    background-color: white;
+    width: 245px;
+    margin: 10px;
+    height: 422px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#triangle {
+    display: inline-block;
+    position: relative;
+    border-top: 20px solid white;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+}
+
+/*bouton Nous contacter*/
+
+input {
+    width: 151px;
+    height: 36px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    color: white;
+    background-color: rgb(255, 51, 5);
+    border-radius: 3px;
+    border: 1px solid rgb(255, 51, 5);
+}
+
+.bouton {
+    padding-bottom: 30px;
+    display: flexbox;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    padding: 0px;
+}
+
+.bouton2 {
+    padding-bottom: 30px;
+    display: flexbox;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    padding: 2px;
+}
+
+/*Pied de page*/
+
+footer {
+    background-color: rgb(33, 40, 41);
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    margin-left: 150px;
+    padding-top: 35px;
+}
+
+.item-logo {
+    padding-top: 20px;
+    margin-right: 150px;
+}
